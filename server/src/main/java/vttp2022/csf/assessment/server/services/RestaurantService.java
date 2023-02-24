@@ -1,5 +1,6 @@
 package vttp2022.csf.assessment.server.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,8 +22,10 @@ public class RestaurantService {
 	// Use the following method to get a list of cuisines 
 	// You can add any parameters (if any) and the return type 
 	// DO NOT CHNAGE THE METHOD'S NAME
-	public ??? getCuisines(???) {
-		// Implmementation in here
+	// Implmementation in here
+
+	public List<Restaurant> getCuisines(???) {
+		
 		
 	}
 
@@ -30,8 +33,10 @@ public class RestaurantService {
 	// Use the following method to get a list of restaurants by cuisine
 	// You can add any parameters (if any) and the return type 
 	// DO NOT CHNAGE THE METHOD'S NAME
+	// Implmementation in here
+
 	public ??? getRestaurantsByCuisine(???) {
-		// Implmementation in here
+		
 		
 	}
 
@@ -39,18 +44,23 @@ public class RestaurantService {
 	// Use this method to find a specific restaurant
 	// You can add any parameters (if any) 
 	// DO NOT CHNAGE THE METHOD'S NAME OR THE RETURN TYPE
+	// Implmementation in here
+
 	public Optional<Restaurant> getRestaurant(???) {
-		// Implmementation in here
+		
 		
 	}
 
 	// TODO Task 5
 	// Use this method to insert a comment into the restaurant database
 	// DO NOT CHNAGE THE METHOD'S NAME OR THE RETURN TYPE
-	public void addComment(Comment comment) {
-		// Implmementation in here
-		
-	}
+	// Implmementation in here
 	//
 	// You may add other methods to this class
+	
+	public void addComment(Comment comment) {
+		
+		
+	}
+	
 }
